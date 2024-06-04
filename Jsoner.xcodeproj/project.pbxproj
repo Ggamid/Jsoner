@@ -11,6 +11,8 @@
 		8770AA5C2C0F924D003C6DFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770AA5B2C0F924D003C6DFF /* ContentView.swift */; };
 		8770AA5E2C0F924E003C6DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8770AA5D2C0F924E003C6DFF /* Assets.xcassets */; };
 		8770AA612C0F924F003C6DFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8770AA602C0F924F003C6DFF /* Preview Assets.xcassets */; };
+		8770AA682C0F9267003C6DFF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770AA672C0F9267003C6DFF /* User.swift */; };
+		8770AA6A2C0F93E7003C6DFF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770AA692C0F93E7003C6DFF /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8770AA5B2C0F924D003C6DFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8770AA5D2C0F924E003C6DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8770AA602C0F924F003C6DFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8770AA672C0F9267003C6DFF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8770AA692C0F93E7003C6DFF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				8770AA592C0F924D003C6DFF /* JsonerApp.swift */,
 				8770AA5B2C0F924D003C6DFF /* ContentView.swift */,
+				8770AA672C0F9267003C6DFF /* User.swift */,
+				8770AA692C0F93E7003C6DFF /* Model.swift */,
 				8770AA5D2C0F924E003C6DFF /* Assets.xcassets */,
 				8770AA5F2C0F924F003C6DFF /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				8770AA5C2C0F924D003C6DFF /* ContentView.swift in Sources */,
 				8770AA5A2C0F924D003C6DFF /* JsonerApp.swift in Sources */,
+				8770AA682C0F9267003C6DFF /* User.swift in Sources */,
+				8770AA6A2C0F93E7003C6DFF /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
