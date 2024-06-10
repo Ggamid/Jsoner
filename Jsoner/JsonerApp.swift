@@ -4,7 +4,7 @@
 //
 //  Created by Gamıd Khalıdov on 04.06.2024.
 //
-
+import SwiftData
 import SwiftUI
 
 @main
@@ -13,5 +13,6 @@ struct JsonerApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: [User.self])
     }
 }
